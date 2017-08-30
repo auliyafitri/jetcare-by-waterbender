@@ -1,6 +1,6 @@
 {
-    "title": "SB Admin",
-    "name": "startbootstrap-sb-admin",
+    "title": "JetCare",
+    "name": "JetCare",
     "version": "4.0.0-beta",
     "description": "A one page app landing page HTML theme for Bootstrap.",
     "keywords": [
@@ -44,5 +44,8 @@
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
         "gulp-uglify": "3.0.0"
+    },
+    "scripts": {
+        "start": "node server/app.js"
     }
 }

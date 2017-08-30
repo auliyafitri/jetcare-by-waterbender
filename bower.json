@@ -1,0 +1,29 @@
+{
+  "name": "jetcare",
+  "version": "0.1.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests",
+    "target",
+    "test-target",
+    "sass"
+  ],
+  "dependencies": {
+    "app-route": "PolymerElements/app-route#0.9.x",
+    "polymer": "1.8.x",
+    "iron-ajax": "1.4.x",
+    "lodash": "4.16.x"
+  },
+  "devDependencies": {
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#1.4.1",
+    "web-component-tester": "^6.0.0"
+  },
+  "resolutions": {
+    "lodash": "4.16.x"
+  }
+}
