@@ -37,7 +37,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
           <li class="nav-item active" data-toggle="tooltip" data-placement="right" title="General">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="index.html#">
               <i class="fa fa-fw fa-dashboard"></i>
               <span class="nav-link-text">
                 General</span>
@@ -116,7 +116,8 @@
         <!-- Breadcrumbs -->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="#">Status</a>
+            <!--<a href="#">Status</a>-->
+            <button onclick="refreshFunction();getLastTS()">Refresh</button>
           </li>
         </ol>
       </div>
@@ -183,12 +184,19 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/sb-admin.min.js"></script>
-      <script src="js/chart.js"></script>
+    <script src="js/chart.js"></script>
 
-            <script src="js/justgage/raphael-2.1.4.min.js"></script>
-              <script src="js/justgage/justgage.js"></script>
-      <script src="js/app-status.js"></script>
+    <script src="js/justgage/raphael-2.1.4.min.js"></script>
+    <script src="js/justgage/justgage.js"></script>
+    <script src="js/app-status.js"></script>
 
+    <script type="text/javascript" src="js/update_runtime.js"></script>
+    
+    <script>
+      function refreshFunction() {
+          alert("Data Updated");
+      }
+    </script>
 
 
   </body>
